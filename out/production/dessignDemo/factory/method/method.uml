@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>factory.method</OriginalElement>
+  <nodes>
+    <node x="0.0" y="218.0">factory.method.JavaScriptVideoFactory</node>
+    <node x="28.47916666666663" y="114.0">factory.method.JavaScriptVideo</node>
+    <node x="290.9652777777777" y="0.0">factory.method.Video</node>
+    <node x="200.47916666666663" y="114.0">factory.method.VideoFactory</node>
+    <node x="386.47916666666663" y="114.0">factory.method.JavaVideo</node>
+    <node x="388.9444444444444" y="218.0">factory.method.JavaVideoFactory</node>
+    <node x="265.22916666666663" y="332.0">factory.method.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="factory.method.JavaScriptVideoFactory" target="factory.method.Video">
+      <point x="-61.33333333333337" y="-27.0" />
+      <point x="30.66666666666663" y="193.0" />
+      <point x="17.97916666666663" y="193.0" />
+      <point x="17.97916666666663" y="74.0" />
+      <point x="303.63194444444446" y="74.0" />
+      <point x="-63.333333333333314" y="27.0" />
+    </edge>
+    <edge source="factory.method.JavaVideoFactory" target="factory.method.VideoFactory">
+      <point x="-55.33333333333334" y="-27.0" />
+      <point x="416.6111111111111" y="193.0" />
+      <point x="338.81249999999994" y="193.0" />
+      <point x="55.333333333333314" y="27.0" />
+    </edge>
+    <edge source="factory.method.VideoFactory" target="factory.method.Video">
+      <point x="0.0" y="-27.0" />
+      <point x="283.47916666666663" y="94.0" />
+      <point x="354.2986111111111" y="94.0" />
+      <point x="-12.666666666666686" y="27.0" />
+    </edge>
+    <edge source="factory.method.JavaVideo" target="factory.method.Video">
+      <point x="0.0" y="-27.0" />
+      <point x="462.47916666666663" y="94.0" />
+      <point x="379.63194444444446" y="94.0" />
+      <point x="12.666666666666686" y="27.0" />
+    </edge>
+    <edge source="factory.method.Main" target="factory.method.VideoFactory">
+      <point x="-14.5" y="-27.0" />
+      <point x="337.72916666666663" y="292.0" />
+      <point x="283.47916666666663" y="292.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="factory.method.Main" target="factory.method.JavaVideoFactory">
+      <point x="14.5" y="-27.0" />
+      <point x="366.72916666666663" y="292.0" />
+      <point x="430.4444444444444" y="292.0" />
+      <point x="-41.5" y="27.0" />
+    </edge>
+    <edge source="factory.method.JavaScriptVideo" target="factory.method.Video">
+      <point x="0.0" y="-27.0" />
+      <point x="104.47916666666663" y="84.0" />
+      <point x="328.9652777777777" y="84.0" />
+      <point x="-38.0" y="27.0" />
+    </edge>
+    <edge source="factory.method.Main" target="factory.method.JavaScriptVideoFactory">
+      <point x="-72.5" y="-27.0" />
+      <point x="279.72916666666663" y="312.0" />
+      <point x="46.0" y="312.0" />
+      <point x="-46.0" y="27.0" />
+    </edge>
+    <edge source="factory.method.JavaVideoFactory" target="factory.method.JavaVideo">
+      <point x="0.0" y="-27.0" />
+      <point x="471.9444444444444" y="193.0" />
+      <point x="462.47916666666663" y="193.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="factory.method.JavaScriptVideoFactory" target="factory.method.JavaScriptVideo">
+      <point x="0.0" y="-27.0" />
+      <point x="92.0" y="193.0" />
+      <point x="104.47916666666663" y="193.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="factory.method.Main" target="factory.method.Video">
+      <point x="72.5" y="-27.0" />
+      <point x="424.72916666666663" y="312.0" />
+      <point x="567.4444444444443" y="312.0" />
+      <point x="567.4444444444443" y="74.0" />
+      <point x="430.2986111111111" y="74.0" />
+      <point x="63.333333333333314" y="27.0" />
+    </edge>
+    <edge source="factory.method.JavaVideoFactory" target="factory.method.Video">
+      <point x="55.33333333333334" y="-27.0" />
+      <point x="527.2777777777777" y="193.0" />
+      <point x="548.9791666666666" y="193.0" />
+      <point x="548.9791666666666" y="84.0" />
+      <point x="404.9652777777777" y="84.0" />
+      <point x="38.0" y="27.0" />
+    </edge>
+    <edge source="factory.method.JavaScriptVideoFactory" target="factory.method.VideoFactory">
+      <point x="61.333333333333314" y="-27.0" />
+      <point x="153.33333333333331" y="193.0" />
+      <point x="228.1458333333333" y="193.0" />
+      <point x="-55.33333333333334" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="267.8888888888889" y="209.77777777777777" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

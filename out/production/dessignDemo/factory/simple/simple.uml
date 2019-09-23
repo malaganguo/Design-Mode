@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>factory.simple</OriginalElement>
+  <nodes>
+    <node x="132.3888888888889" y="0.0">factory.simple.Video</node>
+    <node x="173.0" y="104.0">factory.simple.JavaScriptVideo</node>
+    <node x="0.0" y="104.0">factory.simple.JavaVideo</node>
+    <node x="160.45833333333331" y="335.0">factory.simple.Main</node>
+    <node x="54.888888888888886" y="208.0">factory.simple.VideoFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="factory.simple.Main" target="factory.simple.JavaScriptVideo">
+      <point x="21.75000000000003" y="-27.0" />
+      <point x="269.20833333333337" y="310.0" />
+      <point x="287.0" y="310.0" />
+      <point x="38.0" y="27.0" />
+    </edge>
+    <edge source="factory.simple.VideoFactory" target="factory.simple.Video">
+      <point x="0.0" y="-38.5" />
+      <point x="155.38888888888889" y="183.0" />
+      <point x="162.5" y="183.0" />
+      <point x="162.5" y="79.0" />
+      <point x="189.3888888888889" y="79.0" />
+      <point x="-19.0" y="27.0" />
+    </edge>
+    <edge source="factory.simple.Main" target="factory.simple.Video">
+      <point x="65.25000000000003" y="-27.0" />
+      <point x="312.70833333333337" y="310.0" />
+      <point x="335.5" y="310.0" />
+      <point x="335.5" y="79.0" />
+      <point x="265.3888888888889" y="79.0" />
+      <point x="57.00000000000003" y="27.0" />
+    </edge>
+    <edge source="factory.simple.JavaVideo" target="factory.simple.Video">
+      <point x="0.0" y="-27.0" />
+      <point x="76.0" y="79.0" />
+      <point x="151.3888888888889" y="79.0" />
+      <point x="-57.0" y="27.0" />
+    </edge>
+    <edge source="factory.simple.JavaScriptVideo" target="factory.simple.Video">
+      <point x="0.0" y="-27.0" />
+      <point x="249.0" y="79.0" />
+      <point x="227.3888888888889" y="79.0" />
+      <point x="19.0" y="27.0" />
+    </edge>
+    <edge source="factory.simple.VideoFactory" target="factory.simple.JavaScriptVideo">
+      <point x="67.0" y="-38.5" />
+      <point x="222.38888888888889" y="183.0" />
+      <point x="211.0" y="183.0" />
+      <point x="-38.0" y="27.0" />
+    </edge>
+    <edge source="factory.simple.Main" target="factory.simple.VideoFactory">
+      <point x="-21.74999999999997" y="-27.0" />
+      <point x="225.70833333333334" y="310.0" />
+      <point x="205.63888888888889" y="310.0" />
+      <point x="50.25" y="38.5" />
+    </edge>
+    <edge source="factory.simple.VideoFactory" target="factory.simple.JavaVideo">
+      <point x="-67.0" y="-38.5" />
+      <point x="88.38888888888889" y="183.0" />
+      <point x="76.0" y="183.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="162.0" y="189.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
